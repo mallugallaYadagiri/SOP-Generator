@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Poppins:wght@200;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 1em;
+  background-image: linear-gradient(#22c1c3, #fdbb2d);
+}
+.header-image {
+  max-width: 42.5em;
+  margin-top: 0.5em;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.form-container {
+  border-top: 10px solid #007bff;
+  max-width: 40em;
+  padding: 20px;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 1em;
+
+  text-align: left;
+  border: 3px solid #7d90a5;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(116, 177, 235, 0.3);
+}
+
+.input {
+  font-family: "Crimson Text", serif;
+  font-size: 1.2em;
+  width: 80%;
+  padding: 10px;
+  margin-top: 0.5em;
+  border: none;
+  border-radius: 0;
+  border-bottom: 3px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  transition: border-bottom-color 0.5s; /* Add a transition for smooth effect */
+}
+
+.input:focus {
+  outline: none; /* Remove default focus outline */
+  border-bottom-color: #007bff; /* Change the bottom border color on focus */
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+select,
+option {
+  text-align: center;
+  margin-left: 20px;
+}
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  letter-spacing: 2px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
